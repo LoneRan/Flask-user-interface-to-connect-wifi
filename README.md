@@ -1,5 +1,7 @@
 # Introduction
-This is a demo page for user to connect to Internet through Wifi. (Still under development)
+This is a demo user interface for user to connect to Internet through Wifi. (Still under development)
+
+Developed using Flask. Calling API from my own implementation: https://github.com/LoneRan/Simple-wifi-API
 
 # Requirement
 python3
