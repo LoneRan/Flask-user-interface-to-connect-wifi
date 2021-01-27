@@ -5,6 +5,10 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="static/css/jquery.ml-keyboard.css">
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="static/js/jquery.ml-keyboard.js"></script>
+  <script src="static/js/demo.js"></script>
   <title>Connect to Internet</title>
 </head>
 
@@ -21,7 +25,8 @@
           <option value= "{{choice}}" SELECTED>{{choice}}</option>"
           {% endfor %}
       </select></p>
-      <p><input class = "pass" type = "text" name = "Password" placeholder="Password"/></p>
+      <input class = "pass" id = "example-1" type = "text" name = "Password" placeholder="Password"/>
+      
       
       <p><input class="submit" type = "submit" value = "Connect" /></p>
 
