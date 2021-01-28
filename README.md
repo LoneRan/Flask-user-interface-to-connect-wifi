@@ -17,3 +17,12 @@ To start flask application: `python3 -m flask run`
 2. Click the icon in the middle to next step
 3. select wifi you want to connect to and type in the password
 4. click 'submit'
+
+
+That's what it looks like if you don't have internet connection:
+
+![Homepage](static/images/homepage.png)
+
+That's when you try to connect to wifi
+
+![Wifi](static/images/choosewifi.png)
